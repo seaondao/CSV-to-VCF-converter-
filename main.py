@@ -11,6 +11,7 @@ def load_data(filename):
         return mylist    
 
 #### Only Chagnge here every transfer ######
+
 #You change here in order to channge the source.
 new_list = load_data('test.csv')
 emoji = '🐧'
@@ -40,6 +41,8 @@ def create_file_onenum(name,phone1):
 
 for row in new_list:
     print(row)
+    if not row:
+        continue
     if len(row)==2:
         create_file_onenum(row[0],row[1])
     else:
