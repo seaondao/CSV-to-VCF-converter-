@@ -1,5 +1,5 @@
 # 🐧 CSV to VCF Converter
-
+日本語説明は下にあります。
 A Python script that converts contact data from a CSV file into a VCF (vCard) file that can be directly imported into Android devices.
 
 ---
